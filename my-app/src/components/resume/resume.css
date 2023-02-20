@@ -1,0 +1,17 @@
+.resume {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+  }
+
+  .resume-link {
+    background-color: #e5d1d0ff;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .resume-link:hover {
+    background-color: #f5e4d7ff;
+  }
+  

@@ -1,38 +1,118 @@
-.App {
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  position: relative;
+  display: flexbox;
+  flex-wrap: flow;
+  text-align: center;
+  display: flexbox;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: tan;
+  border: black 5px solid;
+  border-radius: 20px;
+}
+.header-image {
+  position: relative;
+}
+nav {
+  display: flexbox;
+  flex-direction: space-between;
+  
+}
+
+main {
+  background-color: white;
+  position: relative;
+  display: flexbox;
+  flex-wrap: flow;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#about-me {
+  flex-flow: column;
+  position: relative;
+  text-align: center;
+  background-color: gray;
+  border-bottom: gray 5px solid;
+  margin-top: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#work {
+  max-width: 100%;
+  flex-flow: column;
+  position: relative;
+  text-align: center;
+  background-color: rgb(177, 124, 26);
+  border-bottom: black 5px solid;
+  margin-top: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Resizes the work image tag background with the first one bigger */
+.work-img img {
+  height: 300px;
+  width: 350px;
+}
+.work-img-two img {
+  height: 200px;
+  width: 250xp;
+}
+.work-img-three img {
+  height: 200px;
+  width: 250xp;
+}
+/* Resizes the Placeholder alt tag */
+#tree a {
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  top: 25%;
+  left: 45%;
   color: white;
+  border: black 3px solid;
+  background-color: black;
+}
+#tree-two a {
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  color: white;
+  border: black 3px solid;
+  background-color: black;
+}
+#tree-three a {
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  color: white;
+  border: black 3px solid;
+  background-color: black;
+}
+#contact-me {
+  background-color: gray;
+  border-bottom: black 5px solid;
+  margin-top: 15px;
+  margin-bottom: 30%;
+}
+@media screen and (min-width: 500px) {
+  body {
+    color: black;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (min-width: 760px) {
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:root {
+  --color-primary: #839788ff;
+  --color-secondary: #e5d1d0ff;
+  --color-accent: #73877bff;
+  --color-background: #bdbbb6ff;
+  --color-text: #f5e4d7ff;
 }
