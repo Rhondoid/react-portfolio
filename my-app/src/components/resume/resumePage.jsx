@@ -1,13 +1,13 @@
 import './ResumePage.css';
 import React from 'react'
 
-export default function ResumePage() {
-  return (
-    <div className='resumePage'>
+// export default function ResumePage() {
+//   return (
+//     <div className='resumePage'>
       
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
 function ResumePage() {
   return (

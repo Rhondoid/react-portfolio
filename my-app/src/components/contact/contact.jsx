@@ -1,4 +1,4 @@
-import import './contact.css';
+import './contact.css';
 import { React, Form, Field, ErrorMessage } from 'react';
 
 import React from 'react'
