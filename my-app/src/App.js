@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <div className = "app">
       <Route path="/" exact component={Home} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />

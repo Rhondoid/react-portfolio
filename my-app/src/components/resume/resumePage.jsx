@@ -1,4 +1,13 @@
 import './ResumePage.css';
+import React from 'react'
+
+export default function ResumePage() {
+  return (
+    <div className='resumePage'>
+      
+    </div>
+  )
+}
 
 function ResumePage() {
   return (

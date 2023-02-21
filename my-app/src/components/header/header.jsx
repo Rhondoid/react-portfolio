@@ -1,6 +1,16 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+import './header.css';
 import { Navbar, Nav } from 'react-bootstrap';
 
+import React from 'react'
+
+export default function Header() {
+  return (
+    <div className='header'>
+      
+    </div>
+  )
+}
 
 function NavigationBar() {
     return (

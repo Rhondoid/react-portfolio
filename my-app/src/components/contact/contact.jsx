@@ -1,4 +1,15 @@
+import import './contact.css';
 import { React, Form, Field, ErrorMessage } from 'react';
+
+import React from 'react'
+
+export default function Contact() {
+  return (
+    <div className='contact'>
+      
+    </div>
+  )
+}
 
 function ContactForm() {
   return (
