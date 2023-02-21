@@ -1,6 +1,5 @@
-import './ResumePage.css';
 import React from 'react'
-
+import './ResumePage.css';
 // export default function ResumePage() {
 //   return (
 //     <div className='resumePage'>

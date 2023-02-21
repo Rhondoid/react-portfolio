@@ -1,12 +1,15 @@
-import './contact.css';
-import { React, Form, Field, ErrorMessage } from 'react';
-
 import React from 'react'
+import './contact.css';
+import { Form, Field, ErrorMessage } from 'react';
+
+
 
 export default function Contact() {
   return (
     <div className='contact'>
-      
+      <li>Phone# 555-555-5555</li>
+      <li><a href="https://github.com/Rhondoid">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/feed/">LinkedIn</a></li>
     </div>
   )
 }

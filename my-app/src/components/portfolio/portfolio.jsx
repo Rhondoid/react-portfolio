@@ -1,9 +1,10 @@
 // import React, { useState } from 'react';
+import React from 'react'
 import './portfolio.css';
 
-import React from 'react'
 
-export default function Cortfolio() {
+
+export default function Portfolio() {
   return (
     <div className='portfolio'>
       
