@@ -1,18 +1,26 @@
+import React from 'react';
 import './App.css';
 import { Route } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
+import Project from './Project';
+import Resume from './Resume';
 
 function App() {
   return (
-    <div className = "app">
+    <div className="app">
       <Route path="/" exact component={Home} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
-      <Route path="/contact" component={Project} />
-      <Route path="/contact" component={Resume} />
-      
+      <Route path="/project" component={Project} />
+      <Route path="/resume" component={Resume} />
     </div>
   );
 }
+
+export default App;
+
 
 
 
